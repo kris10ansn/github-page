@@ -1,5 +1,6 @@
 import React from "react";
 import "./Navbar.scss";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
     return (
@@ -12,7 +13,9 @@ export default function Navbar() {
 
             <div className="menu">
                 <a href="mailto:kristian.nessa@protonmail.com">Contact</a>
-                <a href="#projects">Projects</a>
+                <Link to="projects" smooth={true} duration={500}>
+                    Projects
+                </Link>
 
                 <a
                     href="https://www.buymeacoffee.com/klUfyKN"
