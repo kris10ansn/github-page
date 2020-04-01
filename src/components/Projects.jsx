@@ -21,7 +21,7 @@ export default function Projects() {
             <div className="projects">
                 {projects.map(
                     ({ title, description, buttons, image }, index) => {
-                        const src = require(`../assets/projects/${image}`);
+                        const src = require(`../assets/projects/images/${image}`);
 
                         return (
                             <div className="card" key={index}>
