@@ -1,0 +1,118 @@
+[
+    {
+        "image": "KA.png",
+        "title": "Kristian Apps Website",
+        "description": "The website you are looking at right now. Made with ReactJS and hosted with GitHub Pages!",
+        "buttons": [
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/kris10ansn.github.io"
+            }
+        ]
+    },
+    {
+        "image": "ukens_timeplan.png",
+        "title": "Ukens timeplan",
+        "description": "An app for norwegian high-schoolers to check their class schedule for the day and or week. It's simpler and faster than looking it up normally.",
+        "buttons": [
+            {
+                "text": "Play store",
+                "url": "https://play.google.com/store/apps/details?id=dev.kris10ansn.ukens_timeplan"
+            },
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/ukens_timeplan_app"
+            }
+        ]
+    },
+    {
+        "image": "snake_multiplayer.png",
+        "title": "Snake multiplayer",
+        "description": "Full stack multiplayer snake game, made with express and websocket. Hosted with heroku cloud platform.",
+        "buttons": [
+            {
+                "text": "Launch game",
+                "url": "https://kristian-snake.herokuapp.com/"
+            },
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/snake_multiplayer"
+            }
+        ]
+    },
+    {
+        "image": "microbit.png",
+        "title": "Microbit Snake",
+        "description": "Snake game made for the microbit microcrontroller by BBC. (Only runs on microbit)",
+        "buttons": [
+            {
+                "text": "Download hex",
+                "url": "https://raw.githubusercontent.com/kris10ansn/microbit_snake/master/micropython.hex"
+            },
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/microbit_snake"
+            }
+        ]
+    },
+    {
+        "image": "chess.png",
+        "title": "ChessKt",
+        "description": "Two player, locally run chess game. Made with kotlin.",
+        "buttons": [
+            {
+                "text": "Download",
+                "url": "https://github.com/kris10ansn/ChessKt/raw/master/out/artifacts/chess_jar/chess.jar"
+            },
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/ChessKt"
+            }
+        ]
+    },
+    {
+        "image": "shortcut.png",
+        "title": "Shortcut converter",
+        "description": "Convert .url files into standard windows .lnk shortcuts that can be pinned to the taskbar.",
+        "buttons": [
+            {
+                "text": "Download",
+                "url": "https://github.com/kris10ansn/shortcut-converter/raw/master/dist/Shortcut%20converter%20Setup%201.0.0.exe"
+            },
+            {
+                "text": "View code",
+                "url": "https://github.com/kris10ansn/shortcut-converter"
+            }
+        ]
+    },
+    {
+        "image": "tetrys.png",
+        "title": "Tetrys",
+        "description": "A modern take on the Tetris game from 1984! It plays in a popup, so you can play it without interrupting your current activity. Closes easily so you can act like youre doing work.",
+        "buttons": [
+            {
+                "text": "Add to browser",
+                "url": "https://chrome.google.com/webstore/detail/tetrys/bnchicpgbdgahiecgofdabidjihblaff"
+            },
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/tetrys"
+            }
+        ]
+    },
+    {
+        "image": "snake_head.png",
+        "title": "Popup Snake",
+        "description": "The good old snake game, but in a popup! Closes easily so you can act like youre doing work.",
+        "buttons": [
+            {
+                "text": "Add to browser",
+                "url": "https://chrome.google.com/webstore/detail/snake/oppflpnigmhkldmdmmbnopidlhahanji"
+            },
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/Snake"
+            }
+        ]
+    }
+]

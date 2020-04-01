@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+:root {
+    font-size: 22px;
+    font-family: "Sen", sans-serif;
+
+    --title-size: 2.9rem;
+    --img-slide: 15%;
+    --main-width: 35vw;
+    --margin-sides: 130px;
+    --margin-top-bottom: 110px;
+    --project-cols: 3;
+
+    --margin-multiplier-projects: 2;
+    --img-anim-delay: 0.4s;
+    --nav-height: 80px;
+    --margin-top-bottom: 20vh;
+
+    overflow-x: hidden;
+}
+
+img,
+svg {
+    user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+    box-sizing: border-box;
+}
