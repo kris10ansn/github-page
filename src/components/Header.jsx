@@ -2,6 +2,8 @@ import React from "react";
 import "./Header.scss";
 import code from "../assets/code.png";
 
+import { Link } from "react-scroll";
+
 export default function Header() {
     return (
         <header>
@@ -23,11 +25,11 @@ export default function Header() {
                 </div>
 
                 <div className="buttons">
-                    <a href="#projects">
+                    <Link to="projects" smooth={true} duration={500}>
                         <button className="more">
                             View more <span className="arrows">»</span>
                         </button>
-                    </a>
+                    </Link>
                 </div>
             </div>
 

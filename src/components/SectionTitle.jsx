@@ -3,7 +3,7 @@ import "./SectionTitle.scss";
 
 export default function SectionTitle({ title, image, url }) {
     return (
-        <section id={title} className="title">
+        <section id={title} name={title} className="title">
             <a href={url} title={url} target="_blank" rel="noopener noreferrer">
                 <img src={image} alt="Loading..." />
             </a>
