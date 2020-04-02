@@ -37,7 +37,7 @@ export default function Header() {
                 <img
                     className="jumbo"
                     src={code}
-                    alt=""
+                    alt="code"
                     title="Backend code for Snake Multiplayer"
                 />
             </div>
