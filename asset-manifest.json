@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fd8be75a.chunk.css",
+    "main.js": "/static/js/main.53813ed7.chunk.js",
+    "main.js.map": "/static/js/main.53813ed7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.b8367cfe.js",
+    "runtime-main.js.map": "/static/js/runtime-main.b8367cfe.js.map",
+    "static/js/2.3156b4aa.chunk.js": "/static/js/2.3156b4aa.chunk.js",
+    "static/js/2.3156b4aa.chunk.js.map": "/static/js/2.3156b4aa.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ea1a971ab46999910b681e2883da40e0.js": "/precache-manifest.ea1a971ab46999910b681e2883da40e0.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.fd8be75a.chunk.css.map": "/static/css/main.fd8be75a.chunk.css.map",
+    "static/js/2.3156b4aa.chunk.js.LICENSE.txt": "/static/js/2.3156b4aa.chunk.js.LICENSE.txt",
+    "static/media/code.png": "/static/media/code.1ce9abde.png",
+    "static/media/github.svg": "/static/media/github.9742d841.svg",
+    "static/media/hamburger.svg": "/static/media/hamburger.86595150.svg",
+    "static/media/microbit.png": "/static/media/microbit.1306cd70.png",
+    "static/media/ukens_timeplan.png": "/static/media/ukens_timeplan.1813302a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b8367cfe.js",
+    "static/js/2.3156b4aa.chunk.js",
+    "static/css/main.fd8be75a.chunk.css",
+    "static/js/main.53813ed7.chunk.js"
+  ]
+}
