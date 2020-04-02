@@ -54,10 +54,16 @@ section {
         flex-wrap: wrap;
 
         div.card {
-            width: calc(
-                (100% / var(--project-cols)) -
-                    (#{$card-margin} * var(--project-cols))
-            );
+            /*
+            Have to do it in this goofy way with variables because react-scripts build
+            modyfies the calc function on the width if i just put the values inline.
+            */
+            --one-third: calc(100% / var(--project-cols));
+            --calculated-margin: calc(#{$card-margin} * var(--project-cols));
+            
+            width: calc(var(--one-third) - var(--calculated-margin));
+
+
             padding: 50px 35px;
 
             margin: 20px $card-margin;
