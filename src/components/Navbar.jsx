@@ -1,6 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
 import { Link } from "react-scroll";
+import hamburger from "../assets/hamburger.svg";
 
 export default function Navbar() {
     return (
@@ -25,16 +26,13 @@ export default function Navbar() {
                     <img
                         src="https://cdn.buymeacoffee.com/buttons/default-white.png"
                         alt="Buy Me A Coffee"
+                        className="bmc"
                     />
                 </a>
             </div>
 
             <div className="hamburger">
-                <img
-                    id="hamburger-button"
-                    src="assets/hamburger.svg"
-                    alt=":::"
-                />
+                <img id="hamburger-button" src={hamburger} alt=":::" />
             </div>
         </nav>
     );

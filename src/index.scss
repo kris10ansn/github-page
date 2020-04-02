@@ -5,16 +5,14 @@
     font-family: "Sen", sans-serif;
 
     --title-size: 2.9rem;
-    --img-slide: 15%;
     --main-width: 35vw;
     --margin-sides: 130px;
-    --margin-top-bottom: 110px;
     --project-cols: 3;
 
+    --img-slide: 15%;
+
     --margin-multiplier-projects: 2;
-    --img-anim-delay: 0.4s;
     --nav-height: 80px;
-    --margin-top-bottom: 20vh;
 
     overflow-x: hidden;
 }
@@ -22,6 +20,7 @@
 html,
 body {
     width: 100vw;
+    overflow-x: hidden;
 }
 
 img,
