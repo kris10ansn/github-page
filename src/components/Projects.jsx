@@ -4,6 +4,16 @@ import "./Projects.scss";
 import github from "../assets/github.svg";
 
 export default function Projects() {
+    const createButton = ({ text, url, disabled }, index) => {
+        return (
+            <a href={url} target="_blank" key={index} rel="noopener noreferrer">
+                <button disabled={Boolean(disabled)} title={disabled}>
+                    {text}
+                </button>
+            </a>
+        );
+    };
+
     return (
         <section name="projects">
             <div className="title">
@@ -31,16 +41,7 @@ export default function Projects() {
                                     <p>{description}</p>
                                 </div>
                                 <div className="buttons">
-                                    {buttons.map(({ text, url }, index) => (
-                                        <a
-                                            href={url}
-                                            target="_blank"
-                                            key={index}
-                                            rel="noopener noreferrer"
-                                        >
-                                            <button>{text}</button>
-                                        </a>
-                                    ))}
+                                    {buttons.map(createButton)}
                                 </div>
                             </div>
                         );

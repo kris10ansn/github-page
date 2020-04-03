@@ -60,9 +60,8 @@ section {
             */
             --one-third: calc(100% / var(--project-cols));
             --calculated-margin: calc(#{$card-margin} * var(--project-cols));
-            
-            width: calc(var(--one-third) - var(--calculated-margin));
 
+            width: calc(var(--one-third) - var(--calculated-margin));
 
             padding: 50px 35px;
 
@@ -105,6 +104,10 @@ section {
                     padding: 12px;
 
                     margin: 0 5px;
+
+                    &:disabled {
+                        text-decoration: line-through;
+                    }
                 }
             }
         }
