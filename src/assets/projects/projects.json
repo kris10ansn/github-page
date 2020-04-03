@@ -3,6 +3,7 @@
         "image": "kristian_apps.png",
         "title": "Kristian Apps Website",
         "description": "The website you are looking at right now. Made with ReactJS and hosted with GitHub Pages!",
+        "pinned": true,
         "buttons": [
             {
                 "text": "View Code",

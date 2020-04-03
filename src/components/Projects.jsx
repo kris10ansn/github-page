@@ -2,6 +2,7 @@ import React from "react";
 import projects from "../assets/projects/projects.json";
 import "./Projects.scss";
 import github from "../assets/github.svg";
+import pin from "../assets/pin.svg";
 
 export default function Projects() {
     const createButton = ({ text, url, disabled }, index) => {
@@ -14,11 +15,16 @@ export default function Projects() {
         );
     };
 
-    const createProject = ({ title, description, buttons, image }, index) => {
+    const createProject = (
+        { title, description, buttons, image, pinned },
+        index
+    ) => {
         const src = require(`../assets/projects/images/${image}`);
 
         return (
             <div className="card" key={index}>
+                {pinned ? <img src={pin} alt="pin" className="pinned" /> : ""}
+
                 <div className="info">
                     <img src={src} alt={title} />
                     <h1>{title}</h1>
