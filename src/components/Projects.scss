@@ -20,7 +20,7 @@ section {
         }
 
         img {
-            height: 4rem;
+            height: 4em;
             transition: opacity 0.3s;
 
             &:hover {
@@ -29,7 +29,7 @@ section {
         }
 
         span.spacer {
-            font-size: 1.5rem;
+            font-size: 1.5em;
             font-weight: bold;
             display: block;
             transform: translateY(-8%);
@@ -38,7 +38,7 @@ section {
         }
 
         a {
-            font-size: 1rem;
+            font-size: 1em;
             font-weight: lighter;
         }
     }
@@ -106,14 +106,14 @@ section {
                 }
 
                 h1 {
-                    font-size: 1.3rem;
+                    font-size: 1.3em;
                     margin-top: $m;
                 }
 
                 p {
                     margin: $m 0;
-                    font-size: 0.9rem;
-                    line-height: 1.75rem;
+                    font-size: 0.9em;
+                    line-height: 1.75em;
                 }
             }
 
@@ -123,7 +123,7 @@ section {
 
                 button {
                     @include big-button(indigo);
-                    font-size: 0.56rem;
+                    font-size: 0.56em;
                     padding: 12px;
 
                     margin: 0 5px;
