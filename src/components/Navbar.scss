@@ -28,9 +28,16 @@ nav {
     div.menu {
         display: flex;
         align-items: center;
+        height: 100%;
 
         * {
             margin-left: 40px;
+        }
+
+        a {
+            display: flex;
+            align-items: center;
+            height: 100%;
         }
 
         @keyframes hue-rotate {
