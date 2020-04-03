@@ -107,6 +107,8 @@ section {
 
             div.buttons {
                 display: flex;
+                margin-top: 18px;
+
                 button {
                     @include big-button(indigo);
                     font-size: 0.56rem;
