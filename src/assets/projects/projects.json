@@ -11,6 +11,20 @@
         ]
     },
     {
+        "image": "script_loader.png",
+        "title": "Script Loader",
+        "description": "Popup chrome extension to save and run javascript scripts on the sites you visit. It uses the Monaco editor, the same used on Visual Studio Code.",
+        "buttons": [
+            {
+                "text": "Add to browser"
+            },
+            {
+                "text": "View Code",
+                "url": "https://github.com/kris10ansn/script-loader"
+            }
+        ]
+    },
+    {
         "image": "ukens_timeplan.png",
         "title": "Ukens timeplan",
         "description": "An app for norwegian high-schoolers to check their class schedule for the day and or week. It's simpler and faster than looking it up normally.",
