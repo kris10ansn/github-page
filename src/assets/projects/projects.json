@@ -16,7 +16,8 @@
         "description": "Popup chrome extension to save and run javascript scripts on the sites you visit. It uses the Monaco editor, the same used on Visual Studio Code.",
         "buttons": [
             {
-                "text": "Add to browser"
+                "text": "Add to browser",
+                "disabled": "Currently awaiting review by Google."
             },
             {
                 "text": "View Code",
