@@ -5,6 +5,13 @@
     }
 }
 
+@media only screen and (min-width: 5000px) {
+    :root {
+        --img-slide: 40%;
+        font-size: 33px;
+    }
+}
+
 @media only screen and (max-width: 1500px) {
     :root {
         font-size: 21px;

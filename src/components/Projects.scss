@@ -137,9 +137,9 @@ section {
     }
 }
 
-@media only screen and (min-width: 5760px) {
+@media only screen and (min-width: 2560px) {
     :root {
-        --project-cols: 7;
+        --project-cols: 4;
     }
 }
 
@@ -149,9 +149,9 @@ section {
     }
 }
 
-@media only screen and (min-width: 2560px) {
+@media only screen and (min-width: 5760px) {
     :root {
-        --project-cols: 4;
+        --project-cols: 7;
     }
 }
 

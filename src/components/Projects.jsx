@@ -25,19 +25,18 @@ export default function Projects() {
         const onResize = () => {
             const cols = getIntegerFromCssVariable("--project-cols");
 
-            if (cols < 3) {
-                setCssVariable(
-                    "--card-margin-multiplier",
-                    "2",
-                    projectDivRef.current
-                );
-            } else {
-                setCssVariable(
-                    "--card-margin-multiplier",
-                    "1",
-                    projectDivRef.current
-                );
-            }
+            setCssVariable(
+                "--card-margin-multiplier",
+                {
+                    1: 1,
+                    2: 2,
+                    3: 1,
+                    4: 0.67,
+                    5: 0.5,
+                    7: 0.34,
+                }[cols],
+                projectDivRef.current
+            );
         };
         window.addEventListener("resize", onResize);
         onResize();
