@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.b190e912.chunk.css",
-    "main.js": "/static/js/main.02f97491.chunk.js",
-    "main.js.map": "/static/js/main.02f97491.chunk.js.map",
+    "main.css": "/static/css/main.3b682886.chunk.css",
+    "main.js": "/static/js/main.f36e6125.chunk.js",
+    "main.js.map": "/static/js/main.f36e6125.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b8367cfe.js",
     "runtime-main.js.map": "/static/js/runtime-main.b8367cfe.js.map",
-    "static/js/2.852f9347.chunk.js": "/static/js/2.852f9347.chunk.js",
-    "static/js/2.852f9347.chunk.js.map": "/static/js/2.852f9347.chunk.js.map",
+    "static/js/2.3156b4aa.chunk.js": "/static/js/2.3156b4aa.chunk.js",
+    "static/js/2.3156b4aa.chunk.js.map": "/static/js/2.3156b4aa.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.92f5c3007c9aa82b3fe554026930c99d.js": "/precache-manifest.92f5c3007c9aa82b3fe554026930c99d.js",
+    "precache-manifest.56e335c04203fc39513e8b1b9c8f2835.js": "/precache-manifest.56e335c04203fc39513e8b1b9c8f2835.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.b190e912.chunk.css.map": "/static/css/main.b190e912.chunk.css.map",
-    "static/js/2.852f9347.chunk.js.LICENSE.txt": "/static/js/2.852f9347.chunk.js.LICENSE.txt",
+    "static/css/main.3b682886.chunk.css.map": "/static/css/main.3b682886.chunk.css.map",
+    "static/js/2.3156b4aa.chunk.js.LICENSE.txt": "/static/js/2.3156b4aa.chunk.js.LICENSE.txt",
     "static/media/code.png": "/static/media/code.1ce9abde.png",
     "static/media/github.svg": "/static/media/github.9742d841.svg",
     "static/media/hamburger.svg": "/static/media/hamburger.86595150.svg",
     "static/media/microbit_snake.png": "/static/media/microbit_snake.1306cd70.png",
-    "static/media/pin.svg": "/static/media/pin.a2cc535a.svg",
+    "static/media/pin.1880fad5.svg": "/static/media/pin.1880fad5.svg",
     "static/media/script_loader.png": "/static/media/script_loader.8c97a719.png",
     "static/media/ukens_timeplan.png": "/static/media/ukens_timeplan.1813302a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b8367cfe.js",
-    "static/js/2.852f9347.chunk.js",
-    "static/css/main.b190e912.chunk.css",
-    "static/js/main.02f97491.chunk.js"
+    "static/js/2.3156b4aa.chunk.js",
+    "static/css/main.3b682886.chunk.css",
+    "static/js/main.f36e6125.chunk.js"
   ]
 }
