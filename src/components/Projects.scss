@@ -136,3 +136,33 @@ section {
         }
     }
 }
+
+@media only screen and (min-width: 5760px) {
+    :root {
+        --project-cols: 7;
+    }
+}
+
+@media only screen and (min-width: 3800px) {
+    :root {
+        --project-cols: 5;
+    }
+}
+
+@media only screen and (min-width: 2560px) {
+    :root {
+        --project-cols: 4;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    :root {
+        --project-cols: 2;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    :root {
+        --project-cols: 1;
+    }
+}

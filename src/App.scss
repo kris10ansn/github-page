@@ -2,14 +2,12 @@
     :root {
         --img-slide: 25%;
         font-size: 28px;
-        --project-cols: 4;
     }
 }
 
 @media only screen and (max-width: 1500px) {
     :root {
         font-size: 21px;
-        --project-cols: 2;
         --margin-sides: 100px;
     }
 }
@@ -34,7 +32,6 @@
 
 @media only screen and (max-width: 900px) {
     :root {
-        --project-cols: 1;
         --title-size: 2.5rem;
     }
 }
