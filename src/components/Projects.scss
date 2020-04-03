@@ -88,12 +88,14 @@ section {
             text-align: center;
             position: relative;
 
-            img.pinned {
+            svg.pinned {
                 height: 30px;
+                width: 30px;
                 position: absolute;
                 top: 20px;
                 right: 20px;
                 transform: rotate(45deg);
+                fill: black;
             }
 
             div.info {

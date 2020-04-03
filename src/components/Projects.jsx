@@ -2,9 +2,9 @@ import React from "react";
 import projects from "../assets/projects/projects.json";
 import "./Projects.scss";
 import github from "../assets/github.svg";
-import pin from "../assets/pin.svg";
 import { createRef } from "react";
 import { useEffect } from "react";
+import { ReactComponent as PinSVG } from "../assets/pin.svg";
 
 export default function Projects() {
     const projectDivRef = createRef();
@@ -60,7 +60,7 @@ export default function Projects() {
 
         return (
             <div className="card" key={index}>
-                {pinned ? <img src={pin} alt="pin" className="pinned" /> : ""}
+                {pinned ? <PinSVG className="pinned" /> : ""}
 
                 <div className="info">
                     <img src={src} alt={title} />
