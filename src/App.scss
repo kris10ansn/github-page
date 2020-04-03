@@ -15,19 +15,13 @@
 @media only screen and (max-width: 1500px) {
     :root {
         font-size: 21px;
-        --margin-sides: 100px;
+        --margin-sides: 50px;
     }
 }
 
 @media only screen and (max-width: 1400px) {
     :root {
         font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 1300px) {
-    :root {
-        --margin-sides: 70px;
     }
 }
 
