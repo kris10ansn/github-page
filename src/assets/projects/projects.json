@@ -1,6 +1,6 @@
 [
     {
-        "image": "KA.png",
+        "image": "kristian_apps.png",
         "title": "Kristian Apps Website",
         "description": "The website you are looking at right now. Made with ReactJS and hosted with GitHub Pages!",
         "buttons": [
@@ -41,7 +41,7 @@
         ]
     },
     {
-        "image": "microbit.png",
+        "image": "microbit_snake.png",
         "title": "Microbit Snake",
         "description": "Snake game made for the microbit microcrontroller by BBC. (Only runs on microbit)",
         "buttons": [
@@ -56,7 +56,7 @@
         ]
     },
     {
-        "image": "chess.png",
+        "image": "chesskt.png",
         "title": "ChessKt",
         "description": "Two player, locally run chess game. Made with kotlin.",
         "buttons": [
@@ -71,7 +71,7 @@
         ]
     },
     {
-        "image": "shortcut.png",
+        "image": "shortcut_converter.png",
         "title": "Shortcut converter",
         "description": "Convert .url files into standard windows .lnk shortcuts that can be pinned to the taskbar.",
         "buttons": [
@@ -101,7 +101,7 @@
         ]
     },
     {
-        "image": "snake_head.png",
+        "image": "popup_snake.png",
         "title": "Popup Snake",
         "description": "The good old snake game, but in a popup! Closes easily so you can act like youre doing work.",
         "buttons": [
