@@ -3,8 +3,47 @@ import projects from "../assets/projects/projects.json";
 import "./Projects.scss";
 import github from "../assets/github.svg";
 import pin from "../assets/pin.svg";
+import { createRef } from "react";
+import { useEffect } from "react";
 
 export default function Projects() {
+    const projectDivRef = createRef();
+
+    const getIntegerFromCssVariable = (name, el) => {
+        const element = el || document.body;
+        const value = getComputedStyle(element).getPropertyValue(name);
+
+        return parseInt(value);
+    };
+
+    const setCssVariable = (name, value, el) => {
+        const element = el || document.body;
+        console.log(element);
+        element.style.setProperty(name, value);
+    };
+
+    useEffect(() => {
+        const onResize = () => {
+            const cols = getIntegerFromCssVariable("--project-cols");
+
+            if (cols < 3) {
+                setCssVariable(
+                    "--card-margin-multiplier",
+                    "2",
+                    projectDivRef.current
+                );
+            } else {
+                setCssVariable(
+                    "--card-margin-multiplier",
+                    "1",
+                    projectDivRef.current
+                );
+            }
+        };
+        window.addEventListener("resize", onResize);
+        onResize();
+    });
+
     const createButton = ({ text, url, disabled }, index) => {
         return (
             <a href={url} target="_blank" key={index} rel="noopener noreferrer">
@@ -49,7 +88,9 @@ export default function Projects() {
                 <h1>Projects</h1>
             </div>
 
-            <div className="projects">{projects.map(createProject)}</div>
+            <div className="projects" ref={projectDivRef}>
+                {projects.map(createProject)}
+            </div>
         </section>
     );
 }
