@@ -14,6 +14,21 @@ export default function Projects() {
         );
     };
 
+    const createProject = ({ title, description, buttons, image }, index) => {
+        const src = require(`../assets/projects/images/${image}`);
+
+        return (
+            <div className="card" key={index}>
+                <div className="info">
+                    <img src={src} alt={title} />
+                    <h1>{title}</h1>
+                    <p>{description}</p>
+                </div>
+                <div className="buttons">{buttons.map(createButton)}</div>
+            </div>
+        );
+    };
+
     return (
         <section name="projects">
             <div className="title">
@@ -28,26 +43,7 @@ export default function Projects() {
                 <h1>Projects</h1>
             </div>
 
-            <div className="projects">
-                {projects.map(
-                    ({ title, description, buttons, image }, index) => {
-                        const src = require(`../assets/projects/images/${image}`);
-
-                        return (
-                            <div className="card" key={index}>
-                                <div className="info">
-                                    <img src={src} alt={title} />
-                                    <h1>{title}</h1>
-                                    <p>{description}</p>
-                                </div>
-                                <div className="buttons">
-                                    {buttons.map(createButton)}
-                                </div>
-                            </div>
-                        );
-                    }
-                )}
-            </div>
+            <div className="projects">{projects.map(createProject)}</div>
         </section>
     );
 }
