@@ -18,7 +18,6 @@ export default function Projects() {
 
     const setCssVariable = (name, value, el) => {
         const element = el || document.body;
-        console.log(element);
         element.style.setProperty(name, value);
     };
 
