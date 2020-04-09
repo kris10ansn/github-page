@@ -13,7 +13,7 @@ export default function Header() {
                 <div className="desc">
                     <p>
                         Free, open source apps and tools. I'm a student and
-                        coding hobbyist who makes tools and application i want
+                        coding hobbyist who makes tools and application I want
                         or need myself.
                     </p>
                     <div className="remove-small">
