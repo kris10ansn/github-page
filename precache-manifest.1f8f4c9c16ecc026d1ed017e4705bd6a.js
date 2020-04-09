@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "23494f2d21927b39b43874d25d8798d9",
+    "revision": "47010b7d763ca26b6df97eb39678e480",
     "url": "/index.html"
   },
   {
-    "revision": "e2324cbcb5cc8090abdc",
-    "url": "/static/css/main.6e6b8473.chunk.css"
+    "revision": "f226e5da5ff9b6e56083",
+    "url": "/static/css/main.256459a1.chunk.css"
   },
   {
     "revision": "16231e72a1bd8e25568d",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/js/2.3156b4aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2324cbcb5cc8090abdc",
-    "url": "/static/js/main.c0287ee6.chunk.js"
+    "revision": "f226e5da5ff9b6e56083",
+    "url": "/static/js/main.40531cd7.chunk.js"
   },
   {
     "revision": "3eece586bb1ae4c6104b",
@@ -28,8 +28,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/code.1ce9abde.png"
   },
   {
-    "revision": "1e024afbfe720a2f530c5caa729b8180",
-    "url": "/static/media/github.1e024afb.svg"
+    "revision": "9742d8419464b36c063e781f162de455",
+    "url": "/static/media/github.9742d841.svg"
   },
   {
     "revision": "8659515094d85059439811bbedcbbc39",
@@ -40,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/microbit_snake.1306cd70.png"
   },
   {
-    "revision": "e1fad6d140272ef1b676208aca1ceab6",
-    "url": "/static/media/pin.e1fad6d1.svg"
+    "revision": "1880fad55bafd5927f06b37ac090283b",
+    "url": "/static/media/pin.1880fad5.svg"
   },
   {
     "revision": "8c97a7198f45575cfd538dc6484de8ec",
