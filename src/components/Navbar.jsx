@@ -18,6 +18,7 @@ export default function Navbar() {
                 <a
                     href="https://www.buymeacoffee.com/klUfyKN"
                     target="_blank"
+                    rel="noopener noreferrer"
                     className="bmc"
                 >
                     <img
