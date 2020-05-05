@@ -12,8 +12,8 @@ export default function Navbar() {
             </div>
 
             <div className="menu">
-                <a href="https://github.com/kris10ansn">GitHub</a>
                 <a href="mailto:kristian.nessa@protonmail.com">Contact</a>
+                <a href="https://github.com/kris10ansn">GitHub</a>
 
                 <a
                     href="https://www.buymeacoffee.com/klUfyKN"
