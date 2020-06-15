@@ -1,10 +1,30 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Header.scss";
 import code from "../assets/code.png";
 
 import { Link } from "react-scroll";
 
 export default function Header() {
+    const headerImage = useRef();
+    const headerImageAspectRatio = 1209 / 811;
+
+    const resizeHeaderImage = (ref, ratio) => {
+        if (ref.current) {
+            const { height } = window.getComputedStyle(ref.current);
+            const width = parseFloat(height) * ratio;
+
+            ref.current.style.width = `${width}px`;
+        }
+    };
+
+    useEffect(() => {
+        const callback = () =>
+            resizeHeaderImage(headerImage, headerImageAspectRatio);
+
+        window.addEventListener("resize", callback);
+        callback();
+    }, [headerImage, headerImageAspectRatio]);
+
     return (
         <header>
             <div className="content">
@@ -37,6 +57,7 @@ export default function Header() {
                 <img
                     className="jumbo"
                     src={code}
+                    ref={headerImage}
                     alt="code"
                     title="Backend code for Snake Multiplayer"
                 />
