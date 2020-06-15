@@ -6,7 +6,7 @@ export default function Navbar() {
     return (
         <nav>
             <div className="logo">
-                <a href="#">
+                <a href="/">
                     <h1>KA</h1>
                 </a>
             </div>
