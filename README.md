@@ -1,8 +1,3 @@
-# My GitHub page
+# Outdated website
 
-My website to display projects, support options and contact information.
-
-
-## Todo
-
-- Mobile navigation menu
+Old website I made a couple of years ago.
