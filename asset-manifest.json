@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.8d9a7a80.css",
+    "main.css": "/static/css/main.55f272c2.css",
     "main.js": "/static/js/main.1c8043cf.js",
     "static/media/microbit_snake.png": "/static/media/microbit_snake.852a416034317309e66a.png",
     "static/media/code.png": "/static/media/code.2a98d65b3f095f226483.png",
@@ -10,11 +10,11 @@
     "index.html": "/index.html",
     "static/media/hamburger.svg": "/static/media/hamburger.b778cb1777612594612f0bf2e4ff8477.svg",
     "static/media/pin.svg": "/static/media/pin.c0dddacd32a6e90e5240ef6311044b72.svg",
-    "main.8d9a7a80.css.map": "/static/css/main.8d9a7a80.css.map",
+    "main.55f272c2.css.map": "/static/css/main.55f272c2.css.map",
     "main.1c8043cf.js.map": "/static/js/main.1c8043cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d9a7a80.css",
+    "static/css/main.55f272c2.css",
     "static/js/main.1c8043cf.js"
   ]
 }
