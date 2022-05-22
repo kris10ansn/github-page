@@ -1,7 +1,12 @@
 nav {
+    position: relative;
+    z-index: 1;
+
     width: 100%;
     height: var(--nav-height);
     border-bottom: solid 1px black;
+
+    background-color: white;
 
     padding: 0 var(--margin-sides);
 
