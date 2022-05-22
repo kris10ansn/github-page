@@ -1,29 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.e158da71.chunk.css",
-    "main.js": "/static/js/main.aa488429.chunk.js",
-    "main.js.map": "/static/js/main.aa488429.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.760908dd.js",
-    "runtime-main.js.map": "/static/js/runtime-main.760908dd.js.map",
-    "static/js/2.1393d219.chunk.js": "/static/js/2.1393d219.chunk.js",
-    "static/js/2.1393d219.chunk.js.map": "/static/js/2.1393d219.chunk.js.map",
+    "main.css": "/static/css/main.8d9a7a80.css",
+    "main.js": "/static/js/main.1c8043cf.js",
+    "static/media/microbit_snake.png": "/static/media/microbit_snake.852a416034317309e66a.png",
+    "static/media/code.png": "/static/media/code.2a98d65b3f095f226483.png",
+    "static/media/ukens_timeplan.png": "/static/media/ukens_timeplan.cff09fc11e7d74816f01.png",
+    "static/media/script_loader.png": "/static/media/script_loader.05d6fcc6ebd13d2b8e41.png",
+    "static/media/github.svg": "/static/media/github.925e495baa8553c90b8387d1150c4788.svg",
     "index.html": "/index.html",
-    "precache-manifest.1f3987f4e3cdcb19f0087dde2761ec2d.js": "/precache-manifest.1f3987f4e3cdcb19f0087dde2761ec2d.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.e158da71.chunk.css.map": "/static/css/main.e158da71.chunk.css.map",
-    "static/js/2.1393d219.chunk.js.LICENSE.txt": "/static/js/2.1393d219.chunk.js.LICENSE.txt",
-    "static/media/code.png": "/static/media/code.1ce9abde.png",
-    "static/media/github.svg": "/static/media/github.1e024afb.svg",
-    "static/media/hamburger.svg": "/static/media/hamburger.86595150.svg",
-    "static/media/microbit_snake.png": "/static/media/microbit_snake.1306cd70.png",
-    "static/media/pin.e1fad6d1.svg": "/static/media/pin.e1fad6d1.svg",
-    "static/media/script_loader.png": "/static/media/script_loader.8c97a719.png",
-    "static/media/ukens_timeplan.png": "/static/media/ukens_timeplan.1813302a.png"
+    "static/media/hamburger.svg": "/static/media/hamburger.b778cb1777612594612f0bf2e4ff8477.svg",
+    "static/media/pin.svg": "/static/media/pin.c0dddacd32a6e90e5240ef6311044b72.svg",
+    "main.8d9a7a80.css.map": "/static/css/main.8d9a7a80.css.map",
+    "main.1c8043cf.js.map": "/static/js/main.1c8043cf.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.760908dd.js",
-    "static/js/2.1393d219.chunk.js",
-    "static/css/main.e158da71.chunk.css",
-    "static/js/main.aa488429.chunk.js"
+    "static/css/main.8d9a7a80.css",
+    "static/js/main.1c8043cf.js"
   ]
 }
