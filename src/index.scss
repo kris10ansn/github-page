@@ -13,14 +13,11 @@
 
     --margin-multiplier-projects: 2;
     --nav-height: 80px;
-
-    overflow-x: hidden;
 }
 
 html,
 body {
-    width: 100vw;
-    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 img,

@@ -3,8 +3,12 @@
 header {
     display: flex;
     height: calc(100vh - var(--nav-height));
+    width: 100%;
+
     min-height: 560px;
     min-width: 320px;
+
+    overflow: hidden;
 
     div.jumbo {
         position: relative;
